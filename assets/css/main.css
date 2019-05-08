@@ -354,6 +354,19 @@ select:hover, select:focus {
     display: none;
   }
 }
+
+@media screen and (max-width: 813px) {
+  .footer-ul {
+    list-style: none;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    width: auto;
+    vertical-align: top;
+  }
+}
+
 @media screen and (max-width: 600px) {
   * {
     margin: 0;
