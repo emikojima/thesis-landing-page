@@ -4,7 +4,6 @@
 1. First Call to Action button "CREATE YOUR ACCOUNT" 
 <br/>
   a. Should be larger in size
- <br/>
   b. Use different wording "GET STARTED NOW" (to avoid having 2 buttons with the same text)
 
 2. Delete text "create an account, or contact us." to reduce repetition
