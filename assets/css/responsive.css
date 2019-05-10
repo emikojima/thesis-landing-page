@@ -32,8 +32,21 @@
     background-size: cover;
   }
 
+  .header-text > h1 {
+    padding-top: 40px;
+  }
+
   .wrapper {
     margin: 0;
+    text-align: center;
+  }
+
+  #call-to-action {
+    padding: 0;
+  }
+
+  .wrapper > p {
+    padding: 10px 25px;
   }
 
   .main-nav {
