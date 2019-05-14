@@ -197,6 +197,7 @@ hr {
 
 .our-services-card:hover {
   border-color: rgb(129, 211, 152);
+  border-width: medium;
 }
 
 #our-services > div > ul > a > li > h6 {
@@ -232,6 +233,7 @@ hr {
 
 .our-services-card-resellers:hover {
   border-color: rgb(129, 211, 152);
+  border-width: medium;
 }
 
 .our-services-card-vps {
@@ -250,6 +252,7 @@ hr {
 
 .our-services-card-vps:hover {
   border-color: rgb(129, 211, 152);
+  border-width: medium;
 }
 
 .our-services-card-cloud {
@@ -268,6 +271,7 @@ hr {
 
 .our-services-card-cloud:hover {
   border-color: rgb(129, 211, 152);
+  border-width: medium;
 }
 
 .last-call-to-action-ul {
