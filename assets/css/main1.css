@@ -4,28 +4,36 @@
 
 .wrapper {
   width: 100%;
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .col {
-  width: 33.3%;
+  width: 33.33%;
   float: right;
   text-align:right;
+  background-color: pink;
 }
 
 .col-1 {
-  width: 33.3%;
+  width: 33.33%;
   float: left;
   text-align: left;
+  background-color: pink;
+  border: solid;
 }
 
 .logo {
   text-align: center;
 }
+
 nav {
   font-family: sans-serif;
   font-style: none;
+}
+
+a {
+  color: gray;
 }
 
 nav ul li{
@@ -33,13 +41,19 @@ nav ul li{
   border-right: black;
   padding: 10px;
   border: 5px;
-
 }
+
 a {
   text-decoration: none;
   font-size: 12px;
-
 }
+
+
+nav .col-1 li + li:before{
+    content: " | ";
+    margin-right: 10px;
+}
+
 
 .button {
   background-color: green;
