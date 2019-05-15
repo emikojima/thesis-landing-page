@@ -23,7 +23,7 @@ article {
 .wrapper {
   width: 100%;
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 section {
@@ -234,6 +234,8 @@ hr {
 .our-services-card-resellers:hover {
   border-color: rgb(129, 211, 152);
   border-width: medium;
+  /* transition-duration: .2s;
+  transform: scale(1.05); */
 }
 
 .our-services-card-vps {
@@ -352,3 +354,21 @@ hr {
 select:hover, select:focus {
   background-color: rgb(115, 111, 223);
 }
+
+/* these 2 same as clearfix but html 5/ css3 */
+/* .clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   /* visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}  */
+
+/* .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.group {
+  display: flow-root;
+} */
