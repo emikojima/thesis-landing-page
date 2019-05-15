@@ -12,15 +12,12 @@
   width: 33.33%;
   float: right;
   text-align:right;
-  background-color: pink;
 }
 
 .col-1 {
   width: 33.33%;
   float: left;
   text-align: left;
-  background-color: pink;
-  border: solid;
 }
 
 .logo {
