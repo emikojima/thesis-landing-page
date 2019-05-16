@@ -43,18 +43,18 @@ nav li{
   padding: 10px 10px;
   list-style: none;
   font-style: none;
-
 }
-
 a {
   text-decoration: none;
+}
+nav li a {
   font-size: 14px;
   color: rgb(61, 61, 61);
   font-family: "Verdana", sans-serif;
   font-weight: 200;
 }
 
-a:hover, a:focus {
+nav li a:hover, nav li a:focus {
   border-bottom: solid;
 }
 
@@ -166,6 +166,10 @@ img {
   font-family: sans-serif;
 }
 
+#vid > a:hover, a:focus {
+  background-color: rgb(215, 188, 170);
+}
+
 .space > p > a {
   font-size: 16px;
   font-family: sans-serif;
@@ -184,4 +188,53 @@ img {
 header {
   padding-top: 30px;
   text-align: center;
+  font-family: "Palatino", serif;
+  font-size: 24px;
+  color: rgb(61, 61, 61);
+}
+
+.action-call {
+  width: 40%;
+  position: relative;
+  left: 30%
+}
+
+.action-call > h4 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.action-call > p {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0 10%;
+}
+
+.rose-text {
+  color:  rgb(215, 188, 170)
+}
+
+article {
+  padding-bottom: 10%;
+}
+
+#on-the-menu {
+  background-color: #6E6259;
+  text-align: center;
+  padding: 20px;
+}
+
+#on-the-menu > header > h1{
+  color: white;
+  font-family: "Palatino", serif;
+  padding-top: 90px;
+  font-weight: lighter;
+}
+#on-the-menu > p {
+  color: white;
+  font-size: 24px;
+  padding: 0 20%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 1.8;
 }
